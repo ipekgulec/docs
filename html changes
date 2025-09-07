@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Website</title>
+
+    <style>
+      /* Menü stilini düzenle */
+      nav ul {
+        list-style-type: none;
+        background-color: #333;
+        padding: 0;
+        margin: 0;
+        display: flex;
+      }
+
+      nav ul li {
+        margin: 0;
+      }
+
+      nav ul li a {
+        display: block;
+        padding: 14px 20px;
+        color: white;
+        text-decoration: none;
+      }
+
+      nav ul li a:hover {
+        background-color: #555;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      main {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Hello World!</h1>
+      <p>This is my first site with GitHub Pages.</p>
+    </main>
+  </body>
+</html>
